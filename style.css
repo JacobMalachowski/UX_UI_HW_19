@@ -1,0 +1,204 @@
+.deskop-home-page {
+  background-color: #740e00;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}  
+
+.desktop-home-page .background{
+    margin-left:50px;
+}
+
+.desktop-home-page .overlap-2{
+    background-color: #2A1818;
+}
+
+.desktop-home-page .foreground{
+    margin:50px;
+}
+
+
+.desktop-home-page .frame-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+.desktop-home-page .frame-4{
+  display:flex;
+  flex-direction:row;
+  justify-content:Stretch;
+}
+
+.desktop-home-page .nav-bar{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding-right:2%;
+  color:#EDA32D;
+}
+
+.desktop-home-page .nav-bar-text{
+  padding:15px;
+  font-size:37;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+}
+
+.desktop-home-page .about-me-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:stretch;
+  width:100%
+}
+
+.desktop-home-page .about-me{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.desktop-home-page .about-me-blurb{
+    display:flex;
+    width:40%;
+    flex-direction:column;
+}
+
+.desktop-home-page .button{
+  margin:25px;
+  display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative !important;
+    background-color: grey;
+    height:90px;
+    width:225px;
+    border-radius:30px;
+}
+
+
+.desktop-home-page .projects-section{
+  
+}
+
+.desktop-home-page .explore-carousel-container{
+    position: relative;
+    width: 110%;
+    overflow:hidden;
+}
+
+.desktop-home-page .explore-carousel{
+    align-items: flex-start;
+    display: flex;
+    gap: 40px;
+    height: 350.47px;
+    width:100%
+    margin-right: -90px;
+    overflow-x: scroll;
+    position: relative;
+    width: 1440px;
+    scroll-behavior:smooth;
+  }
+
+.explore-carousel::-webkit-scrollbar{
+    display:none;
+}
+
+.desktop-home-page .explore-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative !important;
+    background-color: grey;
+    height:250px;
+    width:500px;
+    Border-radius:40px;
+}
+
+.desktop-home-page .overlap-wrapper{
+  background-color:rgba(116, 14, 0, 1);
+      height: 1024px;
+    width: 100%;
+}
+
+
+.desktop-home-page .footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-end;
+  padding-bottom:20px;
+}
+
+.desktop-home-page .instagram-link{
+    position: center;
+    background-color: grey;
+    height:87px;
+    width:87px;
+    Border-radius:20px;
+}
+
+.desktop-home-page .p{
+  color:#EDA32D;
+  font-size:30px;
+}
+
+.desktop-home-page .text-wrapper-4{
+  color:#EFDC8F;
+  font-style:italic;
+  font-size:17px;
+}
+
+
+.desktop-home-page .background-word{
+  font-family:Outward;
+  font-size:1500%
+}
+
+.desktop-home-page .basic-header{
+  font-family:Lora;
+  font-size:55px;
+  font-style:italic;
+  font-weight:550;
+  color:#EDA32D;
+}
+
+.desktop-home-page .body-text{
+  font-family:"inter";
+  font-size:25px;
+  width:100%;
+}
+
+
+.desktop-home-page .header{
+  justify-content:center;
+}
+
+.desktop-home-page .span{
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop-home-page .button{
+    margin:25px;
+    display:flex;
+      justify-content: center;
+      align-items: center;
+      background-color: grey;
+      height:90px;
+      width:225px;
+      border-radius:30px;
+  }
+
+  .desktop-home-page .background-word{
+    font-family:Outward;
+    font-size:1000%
+  }
+
+  .desktop-home-page .about-me{
+    display:flex;
+    width:40%;
+    flex-direction:row;
+}
+
+  }
