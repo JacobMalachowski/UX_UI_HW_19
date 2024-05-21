@@ -1,3 +1,11 @@
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background-color: #740e00
+}
+
 .deskop-home-page {
   background-color: #740e00;
     display: flex;
@@ -15,6 +23,12 @@
 
 .desktop-home-page .foreground{
     margin:50px;
+    background-color: #2A1818;
+}
+
+.logo{
+  width:10%;
+  padding:1%;
 }
 
 
@@ -22,12 +36,24 @@
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
+    height:fit-content
+}
+
+.q-mark{
+  height:70px;
+  width: 70px;
+  align-items:flex-start;
+}
+
+.jake{
+  display: flex;
+  padding:2%;
 }
 
 .desktop-home-page .frame-4{
   display:flex;
   flex-direction:row;
-  justify-content:Stretch;
+  justify-content:center;
 }
 
 .desktop-home-page .nav-bar{
@@ -40,16 +66,17 @@
 
 .desktop-home-page .nav-bar-text{
   padding:15px;
-  font-size:37;
+  font-size:200%;
   font-family: "Space Grotesk";
   font-weight: 600;
 }
 
-.desktop-home-page .about-me-container{
+.desktop-home-page #about-me-container{
   display:flex;
   flex-direction:row;
   justify-content:stretch;
-  width:100%
+  width:100%;
+  padding-top:50px;
 }
 
 .desktop-home-page .about-me{
@@ -97,7 +124,6 @@
     overflow-x: scroll;
     position: relative;
     width: 1440px;
-    scroll-behavior:smooth;
   }
 
 .explore-carousel::-webkit-scrollbar{
@@ -131,11 +157,19 @@
 }
 
 .desktop-home-page .instagram-link{
-    position: center;
-    background-color: grey;
-    height:87px;
-    width:87px;
-    Border-radius:20px;
+    position: center; 
+    height:65%;
+    width: 65%;
+}
+
+.inst-link-shrink{
+  display: flex;
+  height:87px;
+  width:87px;
+  Border-radius:20px;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
 }
 
 .desktop-home-page .p{
@@ -151,8 +185,11 @@
 
 
 .desktop-home-page .background-word{
+  display:flex;
   font-family:Outward;
-  font-size:1500%
+  font-size:2000%;
+  color:#EFDC8F;
+  align-items: center;
 }
 
 .desktop-home-page .basic-header{
@@ -178,6 +215,11 @@
     
 }
 
+.urclogo-NO{
+  width:80%;
+  height:55%;
+}
+
 @media only screen and (max-width: 600px) {
   .desktop-home-page .button{
     margin:25px;
@@ -193,6 +235,7 @@
   .desktop-home-page .background-word{
     font-family:Outward;
     font-size:1000%
+    color:#EFDC8F;
   }
 
   .desktop-home-page .about-me{
