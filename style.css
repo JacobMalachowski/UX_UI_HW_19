@@ -124,7 +124,7 @@ body{
     display: flex;
     gap: 40px;
     height: 350.47px;
-    width:100%
+    width:100%;
     margin-right: -90px;
     overflow-x: scroll;
     position: relative;
@@ -216,9 +216,6 @@ body{
   justify-content:center;
 }
 
-.desktop-home-page .span{
-    
-}
 
 .urclogo-NO{
   width:80%;
