@@ -3,7 +3,11 @@ html{
 }
 
 body{
-  background-color: #740e00
+  background-color: #740e00;
+}
+
+a {
+  text-decoration: none;
 }
 
 .deskop-home-page {
@@ -36,7 +40,7 @@ body{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    height:fit-content
+    height:fit-content;
 }
 
 #q-mark{
@@ -102,20 +106,22 @@ body{
     justify-content: center;
     align-items: center;
     position: relative !important;
-    background-color: grey;
+    background-color: #740E00;
     height:90px;
     width:225px;
     border-radius:30px;
 }
 
-
-.desktop-home-page .projects-section{
-  
+.button-text{
+  font-size: 50px;
+  color: #FF9371;
+  text-decoration: none;
 }
+
 
 .desktop-home-page .explore-carousel-container{
     position: relative;
-    width: 100%;
+    width: fit-content;
     overflow:hidden;
 }
 
@@ -126,9 +132,9 @@ body{
     height: 350.47px;
     width:100%;
     margin-right: -90px;
-    overflow-x: scroll;
     position: relative;
     overflow:hidden;
+    overflow-x:scroll;
   }
 
 .explore-carousel::-webkit-scrollbar{
@@ -142,7 +148,7 @@ body{
     position: relative !important;
     background-color: grey;
     height:250px;
-    width:500px;
+    width:400px;
     Border-radius:40px;
 }
 
@@ -152,6 +158,9 @@ body{
     width: 100%;
 }
 
+.overlap-2{
+  overflow:hidden;
+}
 
 .desktop-home-page .footer{
   display:flex;
@@ -220,13 +229,12 @@ body{
   height:55%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .desktop-home-page .button{
     margin:25px;
     display:flex;
       justify-content: center;
       align-items: center;
-      background-color: grey;
       height:90px;
       width:225px;
       border-radius:30px;
@@ -240,34 +248,94 @@ body{
 
   .desktop-home-page .background-word{
     font-family:Outward;
-    font-size:1500%;
+    font-size:1000%;
     color:#EFDC8F;
+  }
+
+  .deskop-home-page .about-me-container{
+    justify-content: stretch;
+    justify-content: center;
   }
 
   .desktop-home-page .about-me{
     display:flex;
-    width:80%;
     flex-direction:column;
-    height:20%;
+    justify-content: center;
 }
 
-.about-me-blurb{
-  justify-content: center;
-}
 
 .ellipse{
-  height: 20%;
+  height:80%;
+  width:80%;
+  justify-content: center;
 }
 
 
 .desktop-home-page .explore-carousel{
   overflow-x: scroll;
-
-  }
+  overflow:hidden;
+}
 
 .jake{
   padding:1%;
-  flex-direction:column-reverse;
-  size: 30%;
+  flex-direction:row-reverse;
+  size: 50%;
+  justify-content: left;
 }
+
+#jake{
+  width:100%;
+}
+
+.nav-bar-text{
+  font-size:5%;
+}
+
+.desktop-home-page .explore-card{
+  width:250px;
+  height:350px;
+
+}
+
+.desktop-home-page .explore-carousel-container{
+  position: relative;
+  overflow:hidden;
+}
+
+.urclogo-NO{
+  width:80%;
+  height:30%;
+}
+
+
+.desktop-home-page .text-wrapper-4{
+  color:#EFDC8F;
+  font-style:italic;
+  font-size:14px;
+}
+
+.desktop-home-page .p{
+  color:#EDA32D;
+  font-size:25px;
+}
+
+
+.inst-link-shrink{
+  display: flex;
+  height:50px;
+  width:50px;
+  Border-radius:20px;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-link{
+  margin-top: 3px;
+  justify-content: center;
+  align-items: center;
+  height:30px;
+  width:30px;
+}
+
 }
