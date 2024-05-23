@@ -229,7 +229,7 @@ a {
   height:55%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .desktop-home-page .button{
     margin:25px;
     display:flex;
