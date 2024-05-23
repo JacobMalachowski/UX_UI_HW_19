@@ -43,6 +43,8 @@ body{
   height:70px;
   width: 70px;
   align-items:flex-start;
+  scroll-behavior: smooth;
+  cursor:pointer;
 }
 
 .jake{

@@ -1,5 +1,8 @@
 console.log("wow this doesnt work");
 
-$(document) .ready(function(){
-    $("#img1").fadeIn("slow");
-  });
+var qMark = document.getElementById("q-mark");
+var aboutMe = document.getElementById("about-me-container");
+
+qMark.addEventListener("click",function(){
+  aboutMe.scrollIntoView({behavior:"smooth"});
+});
