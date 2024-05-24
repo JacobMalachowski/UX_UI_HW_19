@@ -10,6 +10,30 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Outward";
+  src:url('fonts/outward-block-webfont.woff2')
+    format('woff2'),
+      url('fonts/outward-block-webfont.woff') 
+    format('woff'),
+      url('fonts/outward-block.ttf'),
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url('fonts/Lora-SemiBoldItalic.ttf')
+  format('truetype');
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('fonts/inter.ttc;')
+  format('trueType-collection');
+}
+
 .deskop-home-page {
   background-color: #740e00;
     display: flex;
@@ -98,6 +122,7 @@ a {
     display:flex;
     width:40%;
     flex-direction:column;
+    justify-content: left;
 }
 
 .desktop-home-page .button{
@@ -136,6 +161,12 @@ a {
     overflow:hidden;
     overflow-x:scroll;
   }
+
+.deskop-home-page .explore-card-text{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size:40%;
+}
 
 .explore-carousel::-webkit-scrollbar{
     display:none;
@@ -198,23 +229,23 @@ a {
 
 .desktop-home-page .background-word{
   display:flex;
-  font-family:Outward;
-  font-size:2000%;
+  font-family: "Outward", sans-serif;
+  font-size:6250%;
   color:#EFDC8F;
   align-items: center;
 }
 
 .desktop-home-page .basic-header{
-  font-family:Lora;
+  font-family: 'Lora', serif;
   font-size:55px;
   font-style:italic;
-  font-weight:550;
+  font-weight:600;
   color:#EDA32D;
 }
 
-.desktop-home-page .body-text{
-  font-family:"inter";
-  font-size:25px;
+.desktop-home-page .body-Text{
+  font-family:"inter", sans-serif;
+  font-size:20px;
   width:100%;
 }
 
@@ -253,8 +284,7 @@ a {
   }
 
   .deskop-home-page .about-me-container{
-    justify-content: stretch;
-    justify-content: center;
+    justify-content: Center;
   }
 
   .desktop-home-page .about-me{
@@ -265,8 +295,8 @@ a {
 
 
 .ellipse{
-  height:80%;
-  width:80%;
+  height:50%;
+  width:100%;
   justify-content: center;
 }
 
