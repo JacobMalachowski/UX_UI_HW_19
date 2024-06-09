@@ -55,8 +55,10 @@ a {
 }
 
 .logo{
-  width: 25%;
+  display:flex;
   padding:1%;
+  justify-content: flex-start;
+  margin-right: 75%;
 }
 
 
@@ -89,11 +91,17 @@ a {
   justify-content:left;
 }
 
-.desktop-home-page .nav-bar{
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-home-page .navigation{
   display:flex;
   flex-direction:row;
-  justify-content:flex-end;
   color:#EDA32D;
+  width:100%;
+
 }
 
 .desktop-home-page .nav-bar-text{
